@@ -3,7 +3,9 @@ import React from "react";
 
 function Link(props){
 return (
-<a href={props.link.site}><i class={props.link.class} size={60}></i></a>
+<span className="flex-1 ">
+    <a  href={props.link.site}><i className={props.link.class} ></i></a>
+</span>
 )
 }
 
