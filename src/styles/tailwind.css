@@ -7,3 +7,22 @@ i{
   font-size: 48px;
 }
 
+.fa-icon:hover {
+  color: white;
+}
+
+.icon-bg:hover{
+  background-color: green;
+}
+
+
+
+.resize {
+  width: 400px;
+  height: auto;
+}
+
+.resize {
+  width: 300px;
+  height: auto;
+}
