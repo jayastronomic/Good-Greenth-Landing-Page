@@ -3521,10 +3521,6 @@ video {
   background-image: linear-gradient(to top left, var(--gradient-color-stops));
 }
 
-.bg-hardwood {
-  background-image: url(https://i.pinimg.com/originals/df/80/8f/df808f6bfc95b04ecfa02502c905ca7e.jpg);
-}
-
 .from-transparent {
   --gradient-from-color: transparent;
   --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -18652,7 +18648,21 @@ i{
 }
 
 .fa-icon:hover {
-  color: green;
+  color: white;
+}
+
+.icon-bg:hover{
+  background-color: green;
+}
+
+.resize {
+  width: 400px;
+  height: auto;
+}
+
+.resize {
+  width: 300px;
+  height: auto;
 }
 
 @media (min-width: 640px) {
@@ -21598,10 +21608,6 @@ i{
 
   .sm\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
-  }
-
-  .sm\:bg-hardwood {
-    background-image: url(https://i.pinimg.com/originals/df/80/8f/df808f6bfc95b04ecfa02502c905ca7e.jpg);
   }
 
   .sm\:from-transparent {
@@ -39641,10 +39647,6 @@ i{
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .md\:bg-hardwood {
-    background-image: url(https://i.pinimg.com/originals/df/80/8f/df808f6bfc95b04ecfa02502c905ca7e.jpg);
-  }
-
   .md\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -57682,10 +57684,6 @@ i{
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
   }
 
-  .lg\:bg-hardwood {
-    background-image: url(https://i.pinimg.com/originals/df/80/8f/df808f6bfc95b04ecfa02502c905ca7e.jpg);
-  }
-
   .lg\:from-transparent {
     --gradient-from-color: transparent;
     --gradient-color-stops: var(--gradient-from-color), var(--gradient-to-color, rgba(0, 0, 0, 0));
@@ -75721,10 +75719,6 @@ i{
 
   .xl\:bg-gradient-to-tl {
     background-image: linear-gradient(to top left, var(--gradient-color-stops));
-  }
-
-  .xl\:bg-hardwood {
-    background-image: url(https://i.pinimg.com/originals/df/80/8f/df808f6bfc95b04ecfa02502c905ca7e.jpg);
   }
 
   .xl\:from-transparent {
