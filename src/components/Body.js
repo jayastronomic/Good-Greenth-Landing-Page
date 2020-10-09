@@ -2,7 +2,7 @@ import React from 'react';
 
 const Body = () => {
     return(
-        <div className="container mx-auto p-8 w-4/6 mb-3" >
+        <div className=" lg:container lg:mx-auto lg:p-8 lg:w-4/6 lg:mb-3" >
                 <div className="center border-solid border-gray-100 border-2 rounded font-serif shadow-lg bg-white">
                     <p className="body text-center p-4"> 
                       <span>Good Greenth</span> is the label, the brand and the mindset. I'm sure you and everyone knows what good means. 
